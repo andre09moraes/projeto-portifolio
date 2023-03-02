@@ -11,7 +11,7 @@
 }
 
 body, html {
-    background-image: linear-gradient(to bottom, #212224, #3e4044);
+    background-image: linear-gradient(to left, #212224, #3e4044);
     height: 100vh;
     width: 100vw;
 }
@@ -20,12 +20,9 @@ body, html {
     background-image: linear-gradient(to right, #151b1b, #343a3f);
     width: 600px;
     height: 800px;
+    margin: auto;
     border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.829);
-    transform: translate(-50%, -50%);
 }
 
 #bio h1 {
@@ -37,7 +34,7 @@ body, html {
 
 #bio p {
     font-size: .9em;
-    padding: 0px 20px 10px 20px;
+    padding: 0px 20px 5px 20px;
     text-align: justify;
 }
 
@@ -52,6 +49,22 @@ body, html {
     list-style-type: none;
 }
 
+#bio > ul > li {
+    padding-top: 5px;
+}
+
+#bio > ul > li > a {
+    text-decoration: none;
+}
+
+#bio > ul > li > a:hover {
+    background-color: white;
+    padding: 3px;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 #bio > a {
     padding-left: 20px;
     text-decoration: none;
@@ -60,4 +73,14 @@ body, html {
 #bio > a > img {
     padding-top: 10px;
     width: 30px;
+}
+
+#info {
+    background-image: linear-gradient(to left, #151b1b, #343a3f);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.76);
+    width: 600px;
+    height: 800px;
 }
