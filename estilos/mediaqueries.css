@@ -1,2 +1,34 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to right, #494c4e, #151618, #28282c);
+    }
+
+    #first-image {
+        width: 65%;
+        display: block;
+        margin: auto;
+    }
+
+    main {
+        width: 920px;
+        height: 100vh;
+        margin: auto;
+    }
+
+    #bio {
+        width: 450px;
+        height: 610px;
+        margin: 10px 0px;
+        float: left;
+    }
+
+    #info {
+        width: 450px;
+        height: 610px;
+        margin: 10px 0px;
+        float: right;
+    }
+}
