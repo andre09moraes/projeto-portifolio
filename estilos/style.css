@@ -72,6 +72,8 @@ menu {
     border-radius: 5px;
     list-style-type: none;
     margin-left: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 #html-css > li > a {
@@ -85,6 +87,25 @@ menu {
     font-weight: bolder;
     padding: 2px;
     border-radius: 10px;
+}
+
+#java {
+    list-style-type: none;
+}
+
+#java > li > a {
+    text-decoration: none;
+    padding: 5px 20px;
+    display: block;
+    width: 100%;
+}
+
+#java > li > a:hover {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
 }
 
 #bio > a {
