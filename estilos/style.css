@@ -50,25 +50,41 @@ main {
     letter-spacing: 2px;
 }
 
-#bio ul {
-    padding: 5px 20px 5px 20px;
+#burguer {
+    display: block;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+menu {
+    display: none;
+}
+
+#html-css {
+    border-radius: 5px;
     list-style-type: none;
+    margin-left: 20px;
 }
 
-#bio > ul > li {
-    padding-top: 5px;
-}
-
-#bio > ul > li > a {
+#html-css > li > a {
+    color: white;
     text-decoration: none;
 }
 
-#bio > ul > li > a:hover {
+#html-css > li > a:hover {
     background-color: white;
-    padding: 3px;
     color: black;
-    border-radius: 5px;
-    font-weight: bold;
+    font-weight: bolder;
+    padding: 2px;
+    border-radius: 10px;
 }
 
 #bio > a {
