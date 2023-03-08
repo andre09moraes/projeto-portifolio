@@ -124,7 +124,7 @@ menu {
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.76);
     width: 300px;
-    height: 690px;
+    height: 630px;
 }
 
 #info > h2 {
@@ -149,10 +149,16 @@ menu {
     width: 200px;
     height: 90px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 20px;
     border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px black;
     overflow: hidden;
+}
+
+#projeto-login:hover {
+    border: 2px solid white;
 }
 
 #projeto-android {
@@ -161,7 +167,13 @@ menu {
     margin: auto;
     margin-bottom: 20px;
     border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px black;
     overflow: hidden;
+}
+
+#projeto-android:hover {
+    border: 2px solid white;
 }
 
 #projeto-landing-page {
@@ -170,7 +182,13 @@ menu {
     margin: auto;
     margin-bottom: 20px;
     border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px black;
     overflow: hidden;
+}
+
+#projeto-landing-page:hover {
+    border: 2px solid white;
 }
 
 #projeto-cordel {
@@ -178,5 +196,11 @@ menu {
     height: 100px;
     margin: auto;
     border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px black;
     overflow: hidden;
+}
+
+#projeto-cordel:hover {
+    border: 2px solid white;
 }
